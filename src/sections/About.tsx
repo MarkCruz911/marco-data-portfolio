@@ -13,7 +13,10 @@ export default function About() {
     <section id="about">
       <div className="wrap hero">
         <div className="hero-copy">
-          <Label>MARCO CRUZ / SANTA CRUZ, BOLIVIA</Label>
+          <div className="hero-identity">
+            <p className="hero-name">Marco Cruz</p>
+            <Label>SANTA CRUZ, BOLIVIA</Label>
+          </div>
           <h1>
             Software thinking.
             <br />

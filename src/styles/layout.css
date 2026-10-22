@@ -1023,3 +1023,17 @@
     height: 38px;
   }
 }
+
+.hero-identity {
+  margin-bottom: 24px;
+}
+
+.hero-name {
+  margin: 0 0 10px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -1px;
+  color: #edf3ff;
+}
