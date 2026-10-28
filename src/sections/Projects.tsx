@@ -200,7 +200,7 @@ export default function Projects() {
                 {project.slug === 'youtube-long-form' && (
                   <Out
                     className="button outline"
-                    href="https://public.tableau.com/app/profile/marco.antonio.cruz.rojas/viz/YouTubeLongFormPerformanceAnalysis/YouTubeLongKeyFinding"
+                    href="https://public.tableau.com/views/YouTubeLongFormPerformanceAnalysis/YouTubeLongKeyFinding?%3AshowVizHome=no#2"
                   >
                     <BarChart3 size={16} /> Explore Tableau
                   </Out>

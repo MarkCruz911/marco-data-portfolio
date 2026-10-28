@@ -18,9 +18,9 @@ import { Out, Label } from '../components/UI';
 const projectLinks = {
   repo: 'https://github.com/MarkCruz911/youtube-long-form-performance-analysis',
   tableau:
-    'https://public.tableau.com/app/profile/marco.antonio.cruz.rojas/viz/YouTubeLongFormPerformanceAnalysis/YouTubeLongKeyFinding',
+    'https://public.tableau.com/views/YouTubeLongFormPerformanceAnalysis/YouTubeLongKeyFinding?%3AshowVizHome=no#2',
   tableauEmbed:
-    'https://public.tableau.com/views/YouTubeLongFormPerformanceAnalysis/YouTubeLongKeyFinding?:showVizHome=no&:embed=true&:toolbar=yes',
+    'https://public.tableau.com/views/YouTubeLongFormPerformanceAnalysis/YouTubeLongKeyFinding?%3AshowVizHome=no#2',
 };
 
 type CategoryResult = {
