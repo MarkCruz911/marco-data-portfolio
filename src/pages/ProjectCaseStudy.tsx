@@ -11,7 +11,18 @@ export default function ProjectCaseStudy({ project }: { project: Project }) {
       <Label>{project.category}</Label>
       <h1>{project.title}</h1>
       <p className="lead">{c.question}</p>
+
       <Tags items={project.tools} />
+      {project.githubUrl && (
+        <a
+          href={project.githubUrl}
+          className="button dark"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Explore code and analysis <ArrowUpRight size={17} />
+        </a>
+      )}
       <div className="case-kpis">
         {project.stats.map((s) => (
           <div key={s.label}>
